@@ -1,0 +1,128 @@
+[
+	{
+		"Letter": "A",
+		"Name": "Alanine",
+		"Codons": [ "GCA", "GCC", "GCG", "GCU" ],
+		"Mass": 71.03711
+	},
+	{
+		"Letter": "C",
+		"Name": "Cysteine",
+		"Codons": [ "UGC", "UGU" ],
+		"Mass": 103.00919
+	},
+	{
+		"Letter": "D",
+		"Name": "Aspartic acid",
+		"Codons": [ "GAU", "GAC" ],
+		"Mass": 115.02694
+	},
+	{
+		"Letter": "E",
+		"Name": "Glutamic acid",
+		"Codons": [ "GAA", "GAG" ],
+		"Mass": 129.04259
+	},
+	{
+		"Letter": "F",
+		"Name": "Phenylalanine",
+		"Codons": [ "UUC", "UUU" ],
+		"Mass": 147.06841
+	},
+	{
+		"Letter": "G",
+		"Name": "",
+		"Codons": [ "GGA", "GGC", "GGG", "GGU" ],
+		"Mass": 57.02146
+	},
+	{
+		"Letter": "H",
+		"Name": "Histidine",
+		"Codons": [ "CAU", "CAC" ],
+		"Mass": 137.05891
+	},
+	{
+		"Letter": "I",
+		"Name": "Isoleucine",
+		"Codons": [ "AUA", "AUC", "AUU" ],
+		"Mass": 113.08406
+	},
+	{
+		"Letter": "K",
+		"Name": "Lysine",
+		"Codons": [ "AAG", "AAA" ],
+		"Mass": 128.09496
+	},
+	{
+		"Letter": "L",
+		"Name": "Leucine",
+		"Codons": [ "CUA", "CUC", "CUG", "CUU", "UUG", "UUA" ],
+		"Mass": 113.08406
+	},
+	{
+		"Letter": "M",
+		"Name": "Methionine",
+		"Codons": [ "AUG" ],
+		"Mass": 131.04049
+	},
+	{
+		"Letter": "N",
+		"Name": "Asparagine",
+		"Codons": [ "AAC", "AAU" ],
+		"Mass": 114.04293
+	},
+	{
+		"Letter": "P",
+		"Name": "Proline",
+		"Codons": [ "CCA", "CCC", "CCG", "CCU" ],
+		"Mass": 97.05276
+	},
+	{
+		"Letter": "Q",
+		"Name": "Glutamine",
+		"Codons": [ "CAA", "CAG" ],
+		"Mass": 128.05858
+	},
+	{
+		"Letter": "R",
+		"Name": "Arginine",
+		"Codons": [ "CGA", "CGC", "CGG", "CGU", "AGA", "AGG" ],
+		"Mass": 156.10111
+	},
+	{
+		"Letter": "S",
+		"Name": "Serine",
+		"Codons": [ "UCA", "UCC", "UCG", "UCU", "AGC", "AGU" ],
+		"Mass": 87.03203
+	},
+	{
+		"Letter": "T",
+		"Name": "Threonine",
+		"Codons": [ "ACA", "ACC", "ACG", "ACU" ],
+		"Mass": 101.04768
+	},
+	{
+		"Letter": "V",
+		"Name": "Valine",
+		"Codons": [ "GUA", "GUC", "GUG", "GUU" ],
+		"Mass": 99.06841
+	},
+	{
+		"Letter": "W",
+		"Name": "Tryptophan",
+		"Codons": [ "UGG" ],
+		"Mass": 186.07931
+	},
+	{
+		"Letter": "Y",
+		"Name": "Tyrosine",
+		"Codons": [ "UAC", "UAU" ],
+		"Mass": 163.06333
+	},
+	{
+		"Letter": "*",
+		"Name": "STOP",
+		"Codons": [ "UAG", "UAA", "UGA" ],
+		"Mass": 0
+	}
+]
