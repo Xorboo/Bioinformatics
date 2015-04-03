@@ -57,6 +57,9 @@
     <Compile Include="Ukkonen\Node.cs" />
     <Compile Include="Ukkonen\SuffixTree.cs" />
     <Compile Include="Utils.cs" />
+    <Compile Include="Viterbi\State.cs" />
+    <Compile Include="Viterbi\Transition.cs" />
+    <Compile Include="Viterbi\ViterbiSolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
