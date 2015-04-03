@@ -53,7 +53,7 @@
             this.rtb1.Name = "rtb1";
             this.rtb1.Size = new System.Drawing.Size(988, 644);
             this.rtb1.TabIndex = 51;
-            this.rtb1.Text = "abacaabaccabacabaabb\nabacab\n";
+            this.rtb1.Text = "banana$";
             // 
             // MainForm
             // 

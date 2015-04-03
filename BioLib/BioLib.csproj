@@ -53,6 +53,9 @@
     <Compile Include="RNA.cs" />
     <Compile Include="ScoringMatrix.cs" />
     <Compile Include="StringUtils.cs" />
+    <Compile Include="Ukkonen\Edge.cs" />
+    <Compile Include="Ukkonen\Node.cs" />
+    <Compile Include="Ukkonen\SuffixTree.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>

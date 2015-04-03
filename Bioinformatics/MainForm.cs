@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using System.IO;
 using BioLib;
+using BioLib.Ukkonen;
 
 namespace Bioinformatics
 {
@@ -20,15 +21,20 @@ namespace Bioinformatics
             InitializeComponent();
         }
 
+        string output;
+
         private void button1_Click(object sender, EventArgs e)
         {
-            var strs = rtb1.Text.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+            var tree = new SuffixTree(rtb1.Text);
+            tree.Message += VerboseMessage;
+            output = "";
+            tree.Build();
+            rtb1.Text += "\n\n" + output + "\n\nRESULT:\n" + tree.ToString();
+        }
 
-            string verbose;
-            int pos = StringUtils.FindSubstring(strs[0], strs[1], out verbose);
-
-            rtb1.Text += "\n" + pos + "\n" + string.Join(" ", strs[1].ToCharArray()) + "\n" + verbose;
-
+        void VerboseMessage(string text, object[] obj)
+        {
+            output += String.Format(text, obj) + "\n";
         }
 
         private void Form1_Load(object sender, EventArgs e)
